@@ -27,7 +27,7 @@
 
 
 
-  <link rel="stylesheet" href="/lib/prettify/tomorrow-night-eighties.min.css"  >
+  <link rel="stylesheet" href="/lib/prettify/atelier-estuary-light.min.css"  >
 
 <link rel="stylesheet" href="/css/main.css"  >
 
@@ -43,7 +43,7 @@
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
-       href="/">&nbsp;<strong>Adrien Haydn's Blog</strong>&nbsp;</a>
+       href="/">&nbsp;<strong>Hexo</strong>&nbsp;</a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -143,7 +143,7 @@
 
 <div class="text-center">
   <p class="h3">Adrien Haydn</p>
-  <p>沉迷学习的普通人</p>
+  <p>info / info / info</p>
   
     
     
@@ -153,9 +153,6 @@
       
     </a>
   
-    
-    
-
     
     
 </div>
@@ -351,6 +348,32 @@
   </script>
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+              processEscapes: true,
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+          }
+      });
+
+      MathJax.Hub.Queue(function() {
+          var all = MathJax.Hub.getAllJax(), i;
+          for(i=0; i < all.length; i += 1) {
+              all[i].SourceElement().parentNode.className += ' has-jax';
+          }
+      });
+
+    </script>
+
+    <script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+
+  
 
 
 

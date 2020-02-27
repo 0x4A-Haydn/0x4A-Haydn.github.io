@@ -1,0 +1,36 @@
+<h1 id="Contributing-guidelines"><a href="#Contributing-guidelines" class="headerlink" title="Contributing guidelines"></a>Contributing guidelines</h1><p>Your contribution is always welcome! If you create a new beautiful theme, find a bug or propose an improvement, please send me a pull request.</p>
+<ol>
+<li><p>Fork this repo, clone your fork and configure the remotes:</p>
+<pre><code class="bash"><span class="comment"># Clone your fork of the repo into the current directory</span>
+git <span class="built_in">clone</span> https://github.com/&lt;your-username&gt;/color-themes-for-google-code-prettify
+<span class="comment"># Move to the newly cloned directory</span>
+<span class="built_in">cd</span> color-themes-for-google-code-prettify
+<span class="comment"># Assign the original repo to a remote called "upstream"</span>
+git remote add upstream https://github.com/jmblog/color-themes-for-google-code-prettify</code></pre>
+</li>
+<li><p>If you cloned a while ago, get the latest changes from upstream:</p>
+<pre><code class="bash">git checkout master
+git pull upstream master</code></pre>
+</li>
+<li><p>Create a new topic branch (off the latest version of <code>master</code>) to contain your feature, change, or fix:</p>
+<pre><code class="bash">git checkout -b &lt;topic-branch-name&gt;</code></pre>
+</li>
+<li><p>Install dependencies:</p>
+<pre><code class="bash">npm install</code></pre>
+</li>
+<li><p>Run local server:</p>
+<pre><code class="bash">npm start</code></pre>
+</li>
+</ol>
+<h2 id="Adding-a-new-theme"><a href="#Adding-a-new-theme" class="headerlink" title="Adding a new theme"></a>Adding a new theme</h2><ol>
+<li>Append data to <code>src/themes.json</code>.</li>
+<li>Create your theme stylesheet with Sass<ul>
+<li>Put it into <code>src/themes/&lt;your-theme-id&gt;.scss</code></li>
+</ul>
+</li>
+<li>Create a scss file for preview<ul>
+<li>Put it into <code>src/styles/theme-previews/&lt;your-theme-id&gt;.scss</code></li>
+</ul>
+</li>
+</ol>
+<p>Please refer to existing scss files in details.</p>

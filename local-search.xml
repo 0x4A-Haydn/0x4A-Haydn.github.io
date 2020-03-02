@@ -5,6 +5,27 @@
   
   <entry>
     <title>Information Processing CH1-数据预处理</title>
+    <link href="/2020/03/22/RFID-CH2/"/>
+    <url>/2020/03/22/RFID-CH2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="CH1-课程引入"><a href="#CH1-课程引入" class="headerlink" title="CH1-课程引入"></a>CH1-课程引入</h1><p>本课核心：RFID（无线射频识别）-用无线电做物体身份识别</p><h2 id="基本介绍（了解）"><a href="#基本介绍（了解）" class="headerlink" title="基本介绍（了解）"></a>基本介绍（了解）</h2><ol><li><p>基本流程：Passive RFID tag (Backscatter)-&gt;RFID reader+RFID antenna-&gt;(Wifi) PC/Server</p></li><li><p>RFID的一些特征：</p></li></ol><ul><li><strong>Non-contact</strong> automatic and <strong>rapid</strong> identification</li><li>Permanently store data with certain amount</li><li><strong>Simple</strong> logical processing</li><li><strong>Low cost</strong>, can be deployed in <strong>large numbers</strong></li><li>Reflection signal strength affected by the distance and other factors significantly<blockquote><p>不用电（本课主要关注Passive tag），便宜、可大规模部署，非介入式<br>问题&amp;挑战：无线电信号不稳定会被干扰，供电（读取信息时）</p></blockquote></li></ul><p>本章主要是感性认识一下什么是RFID以及为什么物联网项目中会选择RFID。RFID比蓝牙/Wifi/GPS定位等方法开销少，介入性低，不需要复杂设备，更适合应用于大规模的物联网项目，如：物流检测等</p><p>具体技术细节及算法未来几周会讲。希望能早点讲。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习笔记</category>
+      
+      <category>RFID</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Information Processing CH1-数据预处理</title>
     <link href="/2020/02/27/Information-Processing-CH1/"/>
     <url>/2020/02/27/Information-Processing-CH1/</url>
     

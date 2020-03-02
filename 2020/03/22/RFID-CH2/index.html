@@ -16,7 +16,7 @@
   <meta name="description" content="">
   <meta name="author" content="Adrien Haydn">
   <meta name="keywords" content="">
-  <title>归档 ~ Adrien Haydn&#39;s Blog</title>
+  <title>Information Processing CH1-数据预处理 ~ Adrien Haydn&#39;s Blog</title>
 
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css"  >
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css"  >
@@ -39,7 +39,7 @@
 
 
 <body>
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -114,8 +114,8 @@
   </div>
 </nav>
 
-    <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/bg5.jpeg') no-repeat center center;
+    <div class="view intro-2" id="background" false
+         style="background: url('/img/bg6.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask rgba-black-light flex-center">
@@ -124,6 +124,41 @@
               
             </span>
 
+            
+              <br>
+              
+                <p class="mt-3">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+                  星期日, 三月 22日 2020, 2:26 下午
+                </p>
+              
+
+              <p>
+                
+                  
+                  &nbsp;<i class="far fa-chart-bar"></i>
+                  <span class="post-count">
+                    233 字
+                  </span>&nbsp;
+                
+
+                
+                  
+                  &nbsp;<i class="far fa-clock"></i>
+                  <span class="post-count">
+                      1 分钟
+                  </span>&nbsp;
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  &nbsp;<i class="far fa-eye" aria-hidden="true"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv">
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>&nbsp;
+                
+              </p>
             
           </div>
 
@@ -135,47 +170,98 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5 z-depth-3" id="board">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-  <p class="h4">共计 3 篇文章</p>
-  <hr>
-  
-    
       
-      <p class="h5">2020</p>
-    
-    <a href="/2020/03/22/RFID-CH2/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Information Processing CH1-数据预处理</span>
-      <span style="float: right;">03-22</span>
-    </a>
-  
-    
-    <a href="/2020/02/27/Information-Processing-CH1/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Information Processing CH1-数据预处理</span>
-      <span style="float: right;">02-27</span>
-    </a>
-  
-    
-    <a href="/2020/02/26/SE-Week-1/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">SE Week 1</span>
-      <span style="float: right;">02-26</span>
-    </a>
-  
-</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <h1 id="CH1-课程引入"><a href="#CH1-课程引入" class="headerlink" title="CH1-课程引入"></a>CH1-课程引入</h1><p>本课核心：RFID（无线射频识别）-用无线电做物体身份识别</p>
+<h2 id="基本介绍（了解）"><a href="#基本介绍（了解）" class="headerlink" title="基本介绍（了解）"></a>基本介绍（了解）</h2><ol>
+<li><p>基本流程：Passive RFID tag (Backscatter)-&gt;RFID reader+RFID antenna-&gt;(Wifi) PC/Server</p>
+</li>
+<li><p>RFID的一些特征：</p>
+</li>
+</ol>
+<ul>
+<li><strong>Non-contact</strong> automatic and <strong>rapid</strong> identification</li>
+<li>Permanently store data with certain amount</li>
+<li><strong>Simple</strong> logical processing</li>
+<li><strong>Low cost</strong>, can be deployed in <strong>large numbers</strong></li>
+<li>Reflection signal strength affected by the distance and other factors significantly<blockquote>
+<p>不用电（本课主要关注Passive tag），便宜、可大规模部署，非介入式<br>问题&amp;挑战：无线电信号不稳定会被干扰，供电（读取信息时）</p>
+</blockquote>
+</li>
+</ul>
+<p>本章主要是感性认识一下什么是RFID以及为什么物联网项目中会选择RFID。RFID比蓝牙/Wifi/GPS定位等方法开销少，介入性低，不需要复杂设备，更适合应用于大规模的物联网项目，如：物流检测等</p>
+<p>具体技术细节及算法未来几周会讲。希望能早点讲。</p>
 
-              </div>
-            </div>
+            <hr>
+          </div>
+          <br>
+          <div>
+            <p>
+            
+              <span>
+                <i class="iconfont icon-inbox"></i>
+                
+                  <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+                  &nbsp;
+                
+                  <a class="hover-with-bg" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/RFID/">RFID</a>
+                  &nbsp;
+                
+              </span>&nbsp;&nbsp;
+            
+            
+            </p>
+            
+              <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+            
           </div>
         </div>
       </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+  <div id="toc">
+    <p class="h5"><i class="far fa-list-alt"></i>&nbsp;目录</p>
+    <div id="tocbot"></div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- custom -->
+
+
+<!-- Comments -->
+<div class="col-lg-7 mx-auto nopadding-md">
+  <div class="container comments mx-auto" id="comments">
+    
+      <br><br>
+      
+      
+  <script defer src="https://utteranc.es/client.js"
+          repo="0x4A-Haydn/0x4A-utterances"
+          issue-term="pathname"
+  
+          label="utterances"
+    
+          theme="github-light"
+          crossorigin="anonymous"
+          async>
+  </script>
+
+
+    
+  </div>
+</div>
+
     
   </main>
 
@@ -254,6 +340,26 @@
 
 
 
+  <script src="/js/post.js" ></script>
+  
+    <script src="https://cdn.staticfile.org/tocbot/4.10.0/tocbot.min.js" ></script>
+    <script>
+      $(document).ready(function () {
+        tocbot.init({
+          tocSelector: '#tocbot',
+          contentSelector: '.post-content',
+          headingSelector: 'h1,h2,h3,h4,h5,h6',
+          linkClass: 'tocbot-link',
+          activeLinkClass: 'tocbot-active-link',
+          listClass: 'tocbot-list',
+          isCollapsedClass: 'tocbot-is-collapsed',
+          collapsibleClass: 'tocbot-is-collapsible',
+          scrollSmooth: true,
+        });
+      });
+    </script>
+  
+
 
 
 
@@ -280,7 +386,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "归档&nbsp;",
+        "Information Processing CH1-数据预处理&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 50,
